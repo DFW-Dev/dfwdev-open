@@ -1,0 +1,43 @@
+html {
+  font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  font-size: 15px;
+  word-spacing: 1px;
+  line-height: 20px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #333;
+}
+.navbar {
+  border-radius: 0;
+  background: #41b883 !important;
+}
+a {
+  color: #42A5F5;
+}
+
+#content {
+  padding: 20px;
+}
+#content a {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item .nuxt-link-active,
+.navbar-nav .nav-item .nuxt-link-active:focus {
+  color: #fff;
+}
+
+.loading {
+  background: url(../../static/img/loading.svg) no-repeat;
+  padding-left: 30px;
+  font-style: normal;
+  color: #999;
+  line-height: 20px;
+}
+.v-application{
+  background: #fff!important;
+}
